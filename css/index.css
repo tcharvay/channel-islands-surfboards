@@ -31,6 +31,7 @@
   height: 100%;
 }
 
+
 @media (max-width: 768px) {
   .index-grid {
     display: grid;
@@ -42,6 +43,17 @@
       "i-team";
   }
 }
+
+@media (max-width: 480px) {
+  .banner {
+    background-image: url(../media/contact.jpg);
+  }
+
+  .i-team {
+    background-position: 20%;
+  }
+}  
+
 
 .i-boards {
   grid-area: i-boards;
@@ -82,12 +94,13 @@
   align-items: center;
 }
 
+
+
 .boards-team-btn:hover {
   color: black;
   background-color: white;
 }
 */
-
 
 
 /* HEADER */
@@ -226,6 +239,12 @@ footer li {
   text-align: justify;
   color: black;
   font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .about{
+      width: 90%;
+  }    
 }
 
 @media screen and (max-width: 480px) {
