@@ -1,0 +1,68 @@
+/* CONTACT */
+
+main {
+
+    .form-img{
+        background-color: rgb(232, 232, 232);
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        .contact-img{
+            height: 200px;
+            width: 50%;
+            display: flex;
+        }
+    }
+    .form{
+        background-color: rgb(232, 232, 232);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0 10px 0;
+        .mb-3{
+            width: 300px;
+            .form-check-label{
+                font-weight: 300;
+                font-size: smaller;
+            }
+        }
+    }
+}
+
+
+
+// .form-img {
+//     background-color: rgb(232, 232, 232);
+//     display: flex;
+//     justify-content: center;
+//     padding-top: 15px;
+//   }
+//   .contact-img {
+//     height: 200px;
+//     width: 50%;
+//     display: flex;
+//   } 
+  
+//   .form {
+//     background-color: rgb(232, 232, 232);
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding: 10px 0 10px 0;
+//   }
+  
+//  .form-box {
+//  width:50%;
+// }
+  
+//   .mb-3 {
+//     width: 300px;
+//   }
+  
+//   .form-check-label {
+//     font-weight: 300;
+//     font-size: smaller;
+//   }
+
+
+

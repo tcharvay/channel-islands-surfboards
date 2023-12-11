@@ -48,3 +48,34 @@
         }
       }
     }
+
+    /* ABOUT */
+  
+  @media screen and (max-width: 768px) {
+    .about-content{
+        .about{
+        width: 90%;
+    }    
+  }
+}
+
+  @media screen and (max-width: 480px) {
+    .about-content{
+          .about{
+          width: 100%;
+      }    
+  }
+}
+
+/* CONTACT */
+  
+@media (max-width: 600px) {
+    main {
+
+        .form-img{
+            .contact-img{
+                width: 100%;
+            }
+        }
+    }
+  }

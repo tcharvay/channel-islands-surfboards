@@ -5,5 +5,5 @@
 ### Tecnologias aplicadas
 
  - Html
- - Css
+ - Css / SASS
  - Bootstrap
