@@ -1,0 +1,50 @@
+
+/* QUERIES */
+
+/* MAIN */
+
+@media (max-width: 768px) {
+    main {
+        .index-grid {
+            display: grid;
+          grid-template-rows: repeat(3, 1fr);
+          grid-template-columns: none;
+          grid-template-areas:
+            "banner"
+            "i-boards"
+            "i-team";
+        }
+    }
+    }
+    
+    @media (max-width: 480px) {
+    
+    main {
+        .index-grid {
+                .banner {
+                    background-image: url(../media/contact.jpg);    
+            }
+            .i-team{
+                background-position: 20%;
+            }
+        }
+    }
+    }
+
+    /* SURFBOARDS */
+
+    @media (max-width: 768px) {
+        main {
+        .board-grid {
+          background-color: rgb(232, 232, 232);
+          display: grid;
+          grid-template-rows: repeat(4, 1fr);
+          grid-template-columns: none;
+          grid-template-areas:
+            "surf-1"
+            "surf-2"
+            "surf-3"
+            "surf-4";
+        }
+      }
+    }

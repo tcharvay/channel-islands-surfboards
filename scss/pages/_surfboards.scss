@@ -1,0 +1,99 @@
+/*  SURFBOARDS  */
+
+main {
+    .board-grid {
+        background-color: rgb(232, 232, 232);
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+          "surf-1 surf-2"
+          "surf-3 surf-4";
+        .surf-1{
+            grid-area: surf-1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400p;
+            .board-img{
+                height: 380px;
+        }
+        }
+        .surf-2{
+            grid-area: surf-2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            .board-img{
+                    height: 380px;
+            }
+        }
+        .surf-3{
+            grid-area: surf-3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            .board-img{
+                height: 380px;
+            }
+        }
+        .surf-4{
+            grid-area: surf-4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            .board-img{
+                height: 380px;
+            }
+        }
+    }
+}
+// .board-grid {
+//     background-color: rgb(232, 232, 232);
+//     display: grid;
+//     grid-template-rows: repeat(2, 1fr);
+//     grid-template-columns: repeat(2, 1fr);
+//     grid-template-areas:
+//       "surf-1 surf-2"
+//       "surf-3 surf-4";
+//   }
+  
+//   .surf-1 {
+//     grid-area: surf-1;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 400px;
+//   }
+  
+//   .surf-2 {
+//     grid-area: surf-2;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 400px;
+//   }
+  
+//   .surf-3 {
+//     grid-area: surf-3;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 400px;
+//   }
+  
+//   .surf-4 {
+//     grid-area: surf-4;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 400px;
+//   }
+  
+//   .board-img {
+//     height: 380px;
+//   }
+  

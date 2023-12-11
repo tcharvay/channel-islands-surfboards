@@ -1,0 +1,179 @@
+/*  BOARDS & TEAM  - INDEX */
+
+main {
+    .index-grid {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+          "banner banner"
+          "i-boards i-team";
+        .banner {
+            grid-area: banner;
+            height: 50vh;
+            background-image: url(../media/background.jpg);
+            background-size: cover;
+            background-position: 50%;
+        }
+        .i-boards{
+            grid-area: i-boards;
+            height: 50vh;
+            background-image: url(../media/boards.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .boards-team-btn{
+                text-decoration: none;
+                font-family: "Roboto", sans-serif;
+                color: white;
+                font-size: 26px;
+                font-weight: 500;
+                background-color: transparent;
+                border: 1px;
+                border-style: solid;
+                border-color: rgb(255, 255, 255);
+                padding: 16px 20px;
+                transition-property: color;
+                transition-duration: 0.5s;
+                transition-property: background-color;
+                transition-duration: 0.2s;
+                &:hover{
+                    color: black;
+                    background-color: white;
+                }
+
+            }
+
+        }
+        .i-team{
+            grid-area: i-team;
+            height: 50vh;
+            background-image: url(../media/team.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .boards-team-btn{
+                text-decoration: none;
+                font-family: "Roboto", sans-serif;
+                color: white;
+                font-size: 26px;
+                font-weight: 500;
+                background-color: transparent;
+                border: 1px;
+                border-style: solid;
+                border-color: rgb(255, 255, 255);
+                padding: 16px 20px;
+                transition-property: color;
+                transition-duration: 0.5s;
+                transition-property: background-color;
+                transition-duration: 0.2s;
+                &:hover{
+                    color: black;
+                    background-color: white;
+                }
+            }        
+          
+        }
+    }
+}
+
+
+
+
+//   .i-boards {
+//     grid-area: i-boards;
+//     height: 50vh;
+//     background-image: url(../media/boards.jpg);
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+  
+//   .boards-team-btn {
+//     text-decoration: none;
+//     font-family: "Roboto", sans-serif;
+//     color: white;
+//     font-size: 26px;
+//     font-weight: 500;
+//     background-color: transparent;
+//     border: 1px;
+//     border-style: solid;
+//     border-color: rgb(255, 255, 255);
+//     padding: 16px 20px;
+//     transition-property: color;
+//     transition-duration: 0.5s;
+//     transition-property: background-color;
+//     transition-duration: 0.2s;
+//   }
+  
+//   .i-team {
+//     grid-area: i-team;
+//     height: 50vh;
+//     background-image: url(../media/team.jpeg);
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+  
+  
+  
+//   .boards-team-btn:hover {
+//     color: black;
+//     background-color: white;
+//   }
+  
+  // .index-grid {
+//     display: grid;
+//     grid-template-rows: repeat(2, 1fr);
+//     grid-template-columns: repeat(2, 1fr);
+//     grid-template-areas:
+//       "banner banner"
+//       "i-boards i-team";
+//   }
+  
+//   .banner {
+//     grid-area: banner;
+//     height: 50vh;
+//     background-image: url(../media/background.jpg);
+//     background-size: cover;
+//     background-position: 50%;
+//   }
+  
+// .banner img {
+//  width: 100%;
+// height: 100%;
+// }
+  
+
+
+//   @media (max-width: 768px) {
+//     .index-grid {
+//       display: grid;
+//       grid-template-rows: repeat(3, 1fr);
+//       grid-template-columns: none;
+//       grid-template-areas:
+//         "banner"
+//         "i-boards"
+//         "i-team";
+//     }
+//   }
+  
+//   @media (max-width: 480px) {
+//     .banner {
+//       background-image: url(../media/contact.jpg);
+//     }
+  
+//     .i-team {
+//       background-position: 20%;
+//     }
+//   }  
+  
+  

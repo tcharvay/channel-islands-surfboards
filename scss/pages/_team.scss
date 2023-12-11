@@ -1,0 +1,82 @@
+/* TEAM */
+
+main {
+    .card{
+        background-color: rgb(232, 232, 232);
+        border: none;
+        border-radius: 0;
+        align-items: center;
+        padding-top: 10px;
+        .team-member-1 {
+            background-image: url(../media/team/DaneRaynolds.jpg);
+            background-repeat: no-repeat;
+            height: 200px;
+            width: 300px;
+            background-size: contain;
+          }
+        .team-member-2{
+            background-image: url(../media/team/bobby.jpg);
+            background-repeat: no-repeat;
+            height: 200px;
+            width: 300px;
+            background-size: contain;
+        }
+        .team-member-3{
+            background-image: url(../media/team/parker.jpg);
+            background-repeat: no-repeat;
+            color: white;
+            height: 200px;
+            width: 300px;
+            background-size: contain;
+        }
+        .team-member-4{
+            background-image: url(../media/team/lakey.jpg);
+            background-repeat: no-repeat;
+            height: 200px;
+            width: 300px;
+            background-size: contain;
+        }
+    }
+}
+    
+  
+//   .card {
+//     background-color: rgb(232, 232, 232);
+//     border: none;
+//     border-radius: 0;
+//     align-items: center;
+//     padding-top: 10px;
+//   }
+  
+//   .team-member-1 {
+//     background-image: url(../media/team/DaneRaynolds.jpg);
+//     background-repeat: no-repeat;
+//     height: 200px;
+//     width: 300px;
+//     background-size: contain;
+//   }
+  
+//   .team-member-2 {
+//     background-image: url(../media/team/bobby.jpg);
+//     background-repeat: no-repeat;
+//     height: 200px;
+//     width: 300px;
+//     background-size: contain;
+//   }
+  
+//   .team-member-3 {
+//     background-image: url(../media/team/parker.jpg);
+//     background-repeat: no-repeat;
+//     color: white;
+//     height: 200px;
+//     width: 300px;
+//     background-size: contain;
+//   }
+  
+//   .team-member-4 {
+//     background-image: url(../media/team/lakey.jpg);
+//     background-repeat: no-repeat;
+//     height: 200px;
+//     width: 300px;
+//     background-size: contain;
+//   }

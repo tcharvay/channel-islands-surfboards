@@ -1,5 +1,15 @@
-@import 'base/reset';
+@import 'utilities/reset';
 
-h1 {
-    color: red;
-}
+
+
+
+@import 'components/header';
+@import 'components/footer';
+
+
+@import 'pages/main-index';
+@import 'pages/surfboards';
+@import 'pages/team';
+
+
+@import 'utilities/media_queries';
