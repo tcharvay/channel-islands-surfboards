@@ -8,6 +8,7 @@
     <title>CHANNEL ISLANDS - Team</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -37,16 +38,24 @@
     </header>
     <main>
         <div class="card">
-            <div class="card-body team-member-1">
+            <div class="card-body team-member-1" data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine">
                 Dane Raynolds
             </div>
-            <div class="card-body team-member-2">
+            <div class="card-body team-member-2" data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine">
                 Bobby Martinez
             </div>
-            <div class="card-body team-member-3">
+            <div class="card-body team-member-3" data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine">
                 Parker Coffin
             </div>
-            <div class="card-body team-member-4">
+            <div class="card-body team-member-4" data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine">
                 Lakey Peterson
             </div>
     </main>
@@ -65,5 +74,9 @@
     </footer>
     <script src="https://kit.fontawesome.com/1c0c4f0f02.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

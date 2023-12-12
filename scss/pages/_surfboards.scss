@@ -2,7 +2,7 @@
 
 main {
     .board-grid {
-        background-color: rgb(232, 232, 232);
+        background-color: nth($list: $bg-colors, $n:2 );
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);

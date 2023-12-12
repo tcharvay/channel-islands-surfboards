@@ -3,9 +3,9 @@
 .about-content{
     display: flex;
     justify-content: center;
-    background-color: rgb(232, 232, 232);
+    background-color: nth($list: $bg-colors, $n:2 );
     .about{
-        background-color: rgb(232, 232, 232);
+        background-color: nth($list: $bg-colors, $n:2 );
         width: 70%;
         height: auto;
         align-content: center;

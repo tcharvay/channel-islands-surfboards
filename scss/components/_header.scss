@@ -5,7 +5,7 @@
 
 header {
     .navbar {
-        background-color: rgb(255, 255, 255);
+        background-color: nth($list: $bg-colors, $n: 1 );
         --bs-bg-opacity: none;
         div {
             a {

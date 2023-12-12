@@ -1,9 +1,8 @@
 /* CONTACT */
 
 main {
-
     .form-img{
-        background-color: rgb(232, 232, 232);
+        background-color: nth($list: $bg-colors, $n:2 );
         display: flex;
         justify-content: center;
         padding-top: 15px;
@@ -14,7 +13,7 @@ main {
         }
     }
     .form{
-        background-color: rgb(232, 232, 232);
+        background-color: nth($list: $bg-colors, $n:2 );
         display: flex;
         flex-direction: column;
         align-items: center;
