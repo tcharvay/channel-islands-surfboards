@@ -14,20 +14,40 @@ main {
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-bottom: 10px;
             height: 400p;
             .board-img{
                 height: 380px;
-        }
+            }
+            .board-model{
+                font-family: $principal-font;
+                text-decoration: none;
+                color: #353535;
+                font-weight: 800;
+                font-size: 20px;
+                }
         }
         .surf-2{
             grid-area: surf-2;
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-bottom: 10px;
             height: 400px;
             .board-img{
                     height: 380px;
             }
+            .board-model{
+                font-family: $principal-font;
+                text-decoration: none;
+                color: #353535;
+                font-weight: 800;
+                font-size: 20px;
+                }
         }
         .surf-3{
             grid-area: surf-3;
@@ -35,9 +55,19 @@ main {
             justify-content: center;
             align-items: center;
             height: 400px;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-bottom: 10px;
             .board-img{
                 height: 380px;
             }
+            .board-model{
+                font-family: $principal-font;
+                text-decoration: none;
+                color: #353535;
+                font-weight: 800;
+                font-size: 20px;
+                }
         }
         .surf-4{
             grid-area: surf-4;
@@ -45,55 +75,19 @@ main {
             justify-content: center;
             align-items: center;
             height: 400px;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-bottom: 10px;
             .board-img{
                 height: 380px;
             }
+            .board-model{
+                font-family: $principal-font;
+                text-decoration: none;
+                color: #353535;
+                font-weight: 800;
+                font-size: 20px;
+                }
         }
     }
 }
-// .board-grid {
-//     background-color: rgb(232, 232, 232);
-//     display: grid;
-//     grid-template-rows: repeat(2, 1fr);
-//     grid-template-columns: repeat(2, 1fr);
-//     grid-template-areas:
-//       "surf-1 surf-2"
-//       "surf-3 surf-4";
-//   }
-  
-//   .surf-1 {
-//     grid-area: surf-1;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     height: 400px;
-//   }
-  
-//   .surf-2 {
-//     grid-area: surf-2;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     height: 400px;
-//   }
-  
-//   .surf-3 {
-//     grid-area: surf-3;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     height: 400px;
-//   }
-  
-//   .surf-4 {
-//     grid-area: surf-4;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     height: 400px;
-//   }
-  
-//   .board-img {
-//     height: 380px;
-//   }
-  

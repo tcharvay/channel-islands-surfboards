@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@100&display=swap");
 
 /* HEADER */
 
@@ -30,7 +28,7 @@ header {
                     align-items: center;
                     .nav-item {
                         .nav-link {
-                            font-family: "Roboto", sans-serif;
+                            font-family: $principal-font;
                             text-decoration: none;
                             color: rgb(0, 0, 0);
                             font-size: 14px;
@@ -48,53 +46,3 @@ header {
         }
     }
 }
-
-// HEADER // 
-// header {
-//         .navbar navbar-expand-lg bg-body-tertiary {
-//             background-color: rgb(255, 255, 255);
-//             --bs-bg-opacity: none;                             
-            
-//         }  
-// }
-
-// .menu {
-// flex-grow: 0;
-// }
-  
-//   .navbar-toggler {
-//     border: none;
-//   }
-  
-//   .navbar-toggler:focus {
-//     box-shadow: none;
-//   }
-  
-//   .nav-link {
-//     font-family: "Roboto", sans-serif;
-//     text-decoration: none;
-//     color: rgb(0, 0, 0);
-//     font-size: 14px;
-//     font-weight: 900;
-//     transition-property: color;
-//     transition-duration: 0.5s;
-//   }
-  
-//   .nav-link:hover {
-//     color: rgb(0, 122, 204);
-//   }
-  
-//   .navbar-nav {
-//     align-items: center;
-//   }
-  
-// .imgLogo {
-// height: 50px;
-//  width: 50px;
-// transition: 0.5s all ease-in-out;
-// }
-
-// .imgLogo:hover {
-//     transform: scale(1.2);
-// }
-    

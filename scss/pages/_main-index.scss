@@ -11,18 +11,28 @@ main {
         .banner {
             grid-area: banner;
             height: 50vh;
-            background-image: url(../media/background.jpg);
+            background-image: url(../media/background_big.jpeg);
             background-size: cover;
             background-position: 50%;
-            p {
+            h1 {
                 color:white;
                 display: flex;
                 justify-content: left;
                 margin-left: 10px;
                 margin-top: 10px;
+                margin-bottom: 0px;
                 font-family: "Roboto", sans-serif;
                 font-weight: 700;
                 font-size: 30px;
+            }
+            h2 {
+                color: white;
+                display: flex;
+                justify-content: left;
+                margin-left: 10px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-size: 20px;
             }
         }
         .i-boards{

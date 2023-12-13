@@ -11,13 +11,13 @@
         align-content: center;
         padding: 10px 20px;
         .title{
-            font-family: "Roboto Condensed", sans-serif;
+            font-family: $about-font;
             margin-top: 20px;
             margin-bottom: 10px;
             font-size: 20px;
         }
         .about-text{
-            font-family: "Roboto Condensed", sans-serif;
+            font-family: $about-font;
             font-size: 16px;
             text-align: justify;
             color: black;
@@ -27,32 +27,5 @@
 }
 
 
-// .about-content {
-//     display: flex;
-//     justify-content: center;
-//     background-color: rgb(232, 232, 232);
-//   }
-  
-//   .about {
-//     background-color: rgb(232, 232, 232);
-//     width: 70%;
-//     height: auto;
-//     align-content: center;
-//     padding: 10px 20px;
-//   }
-  
-//   .title {
-//     font-family: "Roboto Condensed", sans-serif;
-//     margin-top: 20px;
-//     margin-bottom: 10px;
-//     font-size: 20px;
-//   }
-  
-//   .about-text {
-//     font-family: "Roboto Condensed", sans-serif;
-//     font-size: 16px;
-//     text-align: justify;
-//     color: black;
-//     font-weight: 600;
-//   }
+
 

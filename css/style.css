@@ -99,19 +99,29 @@ main .index-grid {
 main .index-grid .banner {
   grid-area: banner;
   height: 50vh;
-  background-image: url(../media/background.jpg);
+  background-image: url(../media/background_big.jpeg);
   background-size: cover;
   background-position: 50%;
 }
-main .index-grid .banner p {
+main .index-grid .banner h1 {
   color: white;
   display: flex;
   justify-content: left;
   margin-left: 10px;
   margin-top: 10px;
+  margin-bottom: 0px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 30px;
+}
+main .index-grid .banner h2 {
+  color: white;
+  display: flex;
+  justify-content: left;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
 }
 main .index-grid .i-boards {
   grid-area: i-boards;
@@ -187,20 +197,40 @@ main .board-grid .surf-1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
   height: 400p;
 }
 main .board-grid .surf-1 .board-img {
   height: 380px;
+}
+main .board-grid .surf-1 .board-model {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #353535;
+  font-weight: 800;
+  font-size: 20px;
 }
 main .board-grid .surf-2 {
   grid-area: surf-2;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
   height: 400px;
 }
 main .board-grid .surf-2 .board-img {
   height: 380px;
+}
+main .board-grid .surf-2 .board-model {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #353535;
+  font-weight: 800;
+  font-size: 20px;
 }
 main .board-grid .surf-3 {
   grid-area: surf-3;
@@ -208,9 +238,19 @@ main .board-grid .surf-3 {
   justify-content: center;
   align-items: center;
   height: 400px;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 main .board-grid .surf-3 .board-img {
   height: 380px;
+}
+main .board-grid .surf-3 .board-model {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #353535;
+  font-weight: 800;
+  font-size: 20px;
 }
 main .board-grid .surf-4 {
   grid-area: surf-4;
@@ -218,12 +258,32 @@ main .board-grid .surf-4 {
   justify-content: center;
   align-items: center;
   height: 400px;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 main .board-grid .surf-4 .board-img {
   height: 380px;
 }
+main .board-grid .surf-4 .board-model {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #353535;
+  font-weight: 800;
+  font-size: 20px;
+}
 
 /* TEAM */
+main .title-team {
+  background-color: rgb(232, 232, 232);
+  margin: 0px;
+  padding: 5px;
+  font: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: #353535;
+}
 main .card {
   background-color: rgb(232, 232, 232);
   border: none;
@@ -238,6 +298,12 @@ main .card .team-member-1 {
   width: 300px;
   background-size: contain;
 }
+main .card .team-member-1 .team-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+}
 main .card .team-member-2 {
   background-image: url(../media/team/bobby.jpg);
   background-repeat: no-repeat;
@@ -245,13 +311,24 @@ main .card .team-member-2 {
   width: 300px;
   background-size: contain;
 }
+main .card .team-member-2 .team-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+}
 main .card .team-member-3 {
   background-image: url(../media/team/parker.jpg);
   background-repeat: no-repeat;
-  color: white;
   height: 200px;
   width: 300px;
   background-size: contain;
+}
+main .card .team-member-3 .team-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
 }
 main .card .team-member-4 {
   background-image: url(../media/team/lakey.jpg);
@@ -259,6 +336,12 @@ main .card .team-member-4 {
   height: 200px;
   width: 300px;
   background-size: contain;
+}
+main .card .team-member-4 .team-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
 }
 
 /* ABOUT */
@@ -300,17 +383,17 @@ main .form-img .contact-img {
   width: 50%;
   display: flex;
 }
-main .form {
+main .form-main {
   background-color: rgb(232, 232, 232);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px 0 10px 0;
 }
-main .form .mb-3 {
+main .form-main .mb-3 {
   width: 300px;
 }
-main .form .mb-3 .form-check-label {
+main .form-main .mb-3 .form-check-label {
   font-weight: 300;
   font-size: smaller;
 }
