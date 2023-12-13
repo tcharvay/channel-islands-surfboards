@@ -12,7 +12,7 @@ main {
             display: flex;
         }
     }
-    .form-main{
+    .form{
         background-color: nth($list: $bg-colors, $n:2 );
         display: flex;
         flex-direction: column;
